@@ -1,31 +1,6 @@
 # Chatterbox TTS Turbo 🚀
 
-**Chatterbox TTS Turbo** is an updated, faster, and more expressive open-source Text-to-Speech (TTS) system that runs smoothly on **Google Colab Free GPU (T4)**. This version fixes previous model loading issues and introduces the **Turbo model**, which delivers more natural voices and supports expressive speech.
 
-This notebook is designed to be **simple**: copy, run cells in order, and generate high-quality speech through a web UI.
-
----
-
-## ✨ Features
-
-* ✅ Fixed model loading issues from older Chatterbox versions
-* 🚀 New **Chatterbox Turbo** model (faster & higher quality)
-* 🎭 Supports expressions (laugh, sigh, cough, sniff, clear throat)
-* ⚡ CUDA-accelerated (Google Colab GPU)
-* 🌐 Web-based UI (no local setup needed)
-* 🔊 Natural-sounding voices that rival commercial TTS tools
-
----
-
-## 🧰 Requirements
-
-* Google account
-* Google Colab
-* Free GPU runtime (T4)
-
-No local installation required.
-
----
 
 ## ▶️ How to Run on Google Colab
 
