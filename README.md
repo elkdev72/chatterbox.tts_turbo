@@ -1,7 +1,126 @@
-Quick Start:
-Click the badge above to open the notebook in Google Colab
-Select GPU runtime: Runtime → Change runtime type → T4 GPU → Save
-Run Cell 1: Click the play button to install dependencies (~1-5 minutes)
-Run Cell 2: Start the server and access the Web UI via the provided links
-Wait for "Server ready! Click below" message: Locate the "localhost:8004" link and click. This starts the Web UI in your browser
-Generate speech: Use the web interface to create high-quality TTS audio
+# Chatterbox TTS Turbo 🚀
+
+**Chatterbox TTS Turbo** is an updated, faster, and more expressive open-source Text-to-Speech (TTS) system that runs smoothly on **Google Colab Free GPU (T4)**. This version fixes previous model loading issues and introduces the **Turbo model**, which delivers more natural voices and supports expressive speech.
+
+This notebook is designed to be **simple**: copy, run cells in order, and generate high-quality speech through a web UI.
+
+---
+
+## ✨ Features
+
+* ✅ Fixed model loading issues from older Chatterbox versions
+* 🚀 New **Chatterbox Turbo** model (faster & higher quality)
+* 🎭 Supports expressions (laugh, sigh, cough, sniff, clear throat)
+* ⚡ CUDA-accelerated (Google Colab GPU)
+* 🌐 Web-based UI (no local setup needed)
+* 🔊 Natural-sounding voices that rival commercial TTS tools
+
+---
+
+## 🧰 Requirements
+
+* Google account
+* Google Colab
+* Free GPU runtime (T4)
+
+No local installation required.
+
+---
+
+## ▶️ How to Run on Google Colab
+
+1. **Open the notebook in Google Colab**
+
+   * Upload or open `Chatterbox-TTS Turbo.ipynb`
+
+2. **Enable GPU runtime**
+
+   * Go to: `Runtime → Change runtime type`
+   * Set **Hardware accelerator** to **T4 GPU**
+   * Click **Save**
+
+3. **Run Cell 1 – Install dependencies**
+
+   * Click ▶️ on the first cell
+   * Wait ~1–5 minutes (depends on Colab)
+
+4. **Run Cell 2 – Start the TTS server**
+
+   * This starts the Chatterbox TTS Turbo server
+
+5. **Wait for confirmation**
+
+   * Look for the message:
+
+     > **"Server ready! Click below"**
+
+6. **Open the Web UI**
+
+   * Click the provided link (usually `localhost:8004` via Colab tunnel)
+
+7. **Generate Speech**
+
+   * Select a voice
+   * Enter your text
+   * (Optional) Add expressions using square brackets, e.g.:
+
+     ```
+     [laugh] That was funny!
+     ```
+   * Click **Generate**
+
+---
+
+## 🎭 Supported Expressions
+
+You can control voice expressions using square brackets:
+
+* `[laugh]`
+* `[sigh]`
+* `[cough]`
+* `[sniff]`
+* `[clear_throat]`
+
+Example:
+
+```
+[laugh] This model is insanely good.
+```
+
+---
+
+## ⚠️ Notes
+
+* Older Chatterbox models had **echo issues when changing speed**.
+* The **Turbo model** significantly reduces this problem and performs better overall.
+* Voice cloning is powerful — **use responsibly**.
+
+---
+
+## 📌 Use Cases
+
+* Faceless YouTube channels
+* Audiobooks
+* AI narration
+* Prototyping voice applications
+* Educational demos
+
+---
+
+## ⭐ Support
+
+If this helped you:
+
+* Star the repo ⭐
+* Share it
+* Comment with issues or improvements
+
+---
+
+## 🔗 Repository
+
+[https://github.com/elkdev72/chatterbox.tts_turbo](https://github.com/elkdev72/chatterbox.tts_turbo)
+
+---
+
+Enjoy the Turbo upgrade 🚀
